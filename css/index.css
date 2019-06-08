@@ -144,3 +144,91 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my CSS below */
+
+.site-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-row {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav:link {
+    color: black;
+}
+
+nav:visited {
+    color: lightslategray;
+}
+
+nav:hover {
+    color: lightskyblue;
+}
+
+nav:active {
+    color: red;
+}
+
+.header-img {
+    display: flex;
+    width: 100%;
+}
+
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    align-content: space-between;
+}
+
+.container-item {
+    width: 380px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.container-item img {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: 
+}
+
+.work-together-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
