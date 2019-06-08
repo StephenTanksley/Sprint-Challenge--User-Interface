@@ -75,6 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -223,7 +224,6 @@ button {
     border-radius: 5px;
     border: 1px solid black;
     margin: 10px;
-    background-color: 
 }
 
 .work-together-container {
@@ -231,4 +231,44 @@ button {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
 }
