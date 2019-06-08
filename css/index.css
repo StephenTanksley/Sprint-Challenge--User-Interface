@@ -139,6 +139,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
 footer nav a {
@@ -155,32 +156,39 @@ footer nav a {
 
 .header-row {
     width: 800px;
+    margin: 10px;
+    margin-left: 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 nav {
     width: 70%;
+    margin: 10px;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
-nav:link {
+.top-nav a {
+    text-decoration: none;
+}
+
+.top-nav a:link {
     color: black;
 }
 
-nav:visited {
+.top-nav a:visited {
     color: lightslategray;
 }
 
-nav:hover {
-    color: lightskyblue;
+.top-nav a:hover {
+    color: lightsteelblue;
 }
 
-nav:active {
-    color: red;
+.top-nav a:active {
+    color: black;
 }
 
 .header-img {
@@ -194,6 +202,7 @@ nav:active {
     flex-direction: column;
     border-bottom: 1px dashed black;
     align-content: space-between;
+    margin: 3px;
 }
 
 .container-item {
@@ -206,6 +215,7 @@ nav:active {
 
 .container-item img {
     margin: 10px;
+    margin-left: 0px;
     display: flex;
     justify-content: flex-start;
 }
@@ -222,8 +232,9 @@ button {
     width: 90px;
     height: 30px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 10px;
+    margin-left: 0px;
 }
 
 .work-together-container {
@@ -271,4 +282,23 @@ button {
 
 #dodgerblue {
     background-color: dodgerblue;
+}
+
+/*Stretch goal - contact page*/
+
+.contact-header-img {
+    height: 167px;
+    width: 880px;
+    margin-bottom: 20px;
+}
+
+.form-item {
+    margin: 5px;
+    display: flex;
+}
+
+form {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin: 10px;
 }
