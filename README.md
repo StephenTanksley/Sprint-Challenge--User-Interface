@@ -30,17 +30,31 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+        Semantic HTML is HTML that has been formatted to be easily understood by both human developers and the browsers that are interpreting the markup. 
+        
+        Semantic HTML is preferred because it allows the vision of the site to be translated easily between different browsers, permits higher SEO/Google site rankings, etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+        Display block will take up the whole line from left to right whereas display: inline will allow elements to be placed side by side.
+
+        Display block will also create a space below itself whereas display: inline will not. Those are the two primary differences that I could think of.
 
 3. What are the 4 areas of the box model?
 
+        Margin, border, padding, content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+        While using Flexbox, the property "align-items: center" will work on the cross-axis (horizontal).
+
 5. Explain why git is valuable to a team of developers.
+
+        Git is valuable to a team of developers because it allows teams to see what their fellow team members are working on. It also permits them to track changes and to roll back changes to prior versions if something breaks when merging branches together.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
