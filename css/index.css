@@ -75,6 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -138,9 +139,166 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* my CSS below */
+
+.site-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-row {
+    width: 800px;
+    margin: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav {
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.top-nav a {
+    text-decoration: none;
+}
+
+.top-nav a:link {
+    color: black;
+}
+
+.top-nav a:visited {
+    color: lightslategray;
+}
+
+.top-nav a:hover {
+    color: lightsteelblue;
+}
+
+.top-nav a:active {
+    color: black;
+}
+
+.header-img {
+    display: flex;
+    width: 100%;
+}
+
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    align-content: space-between;
+    margin: 3px;
+}
+
+.container-item {
+    width: 380px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.container-item img {
+    margin: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.work-together-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
+}
+
+/*Stretch goal - contact page*/
+
+.contact-header-img {
+    height: 167px;
+    width: 880px;
+    margin-bottom: 20px;
+}
+
+.form-item {
+    margin: 5px;
+    display: flex;
+}
+
+form {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin: 10px;
 }
